@@ -7,45 +7,45 @@ Parts List
 
 = Details =
 
-9V                      POWER_JACKPTH      POWER_JACK_PTH
-BAT1     3.3V           BATTERY20PTH       BATTCOM_20MM_PTH
-C1       100uF/25V      CAP_POLPTH2        CPOL-RADIAL-10UF-25V
-C2       10uF/10V       CAP_POLPTH2        CPOL-RADIAL-10UF-25V
-C3       22pF           CAPPTH             CAP-PTH-SMALL
-C4       22pF           CAPPTH             CAP-PTH-SMALL
-C5       0.1uF          CAPPTH             CAP-PTH-SMALL
-C6       0.1uF          CAPPTH             CAP-PTH-SMALL
-C7       0.1uF          CAPPTH             CAP-PTH-SMALL
-C8       0.1uF          CAPPTH             CAP-PTH-SMALL
-C9       0.1uF          CAPPTH             CAP-PTH-SMALL
-C10      0.1uF          CAPPTH             CAP-PTH-SMALL
-C11      0.1uF          CAPPTH             CAP-PTH-SMALL
-C12      0.1uF          CAPPTH             CAP-PTH-SMALL   
-D1       1N4001         DIODEPTH           DIODE-0.4          
-D2       Power          LED5MM             LED5MM             
-D3       Status         LED5MM             LED5MM              
-DB9      DB9            DB9                DB9                 
-F1       250mA PTC      PTCPTH             PTC                 
-JP1      SHT71          M04PTH             1X04
-JP2      VEG            M03SCREW           SCREWTERMINAL-3.5MM-3
-JP3      FLR            M03SCREW           SCREWTERMINAL-3.5MM-3
-JP4      PUMP           M03SCREW           SCREWTERMINAL-3.5MM-3
-JP5      TEMP           M03SCREW           SCREWTERMINAL-3.5MM-3
-JP6      SOIL           M03SCREW           SCREWTERMINAL-3.5MM-3
-Q1       16MHz          CRYSTALHC49US      HC49US
-Q2       32.768kHz      CRYSTALTC26H       TC26H
-R1       330            RESISTORPTH1       AXIAL-0.3          
-R2       10K            RESISTORPTH1       AXIAL-0.3    
-R3       330            RESISTORPTH1       AXIAL-0.3       
-R4       4.7k           RESISTORPTH1       AXIAL-0.3   
-R5       4.7k           RESISTORPTH1       AXIAL-0.3  
-R6       10k            RESISTORPTH1       AXIAL-0.3     
-R7       4.7k           RESISTORPTH1       AXIAL-0.3       
-S1                      SWITCH-SPST        SWITCH-SPST    
-S2       Reset          TAC_SWITCHPTH      TACTILE-PTH  
-U1       LM7805         V_REG_78XXSINK     TO220-IGO   
-U2       ATMega382      AVR-MEGA328-P      DIL28-3       
-U3       SP3232         SP3232PTH          DIL16      
-U4       DS1307         DIL8               DIL08   
-U5       DS18B20        TEMPERATURE-SENSOR TO-92    
-U6       DS18B20        TEMPERATURE-SENSOR TO-92   
+ * 9V                      POWER_JACKPTH      POWER_JACK_PTH
+ * BAT1     3.3V           BATTERY20PTH       BATTCOM_20MM_PTH
+ * C1       100uF/25V      CAP_POLPTH2        CPOL-RADIAL-10UF-25V
+ * C2       10uF/10V       CAP_POLPTH2        CPOL-RADIAL-10UF-25V
+ * C3       22pF           CAPPTH             CAP-PTH-SMALL
+ * C4       22pF           CAPPTH             CAP-PTH-SMALL
+ * C5       0.1uF          CAPPTH             CAP-PTH-SMALL
+ * C6       0.1uF          CAPPTH             CAP-PTH-SMALL
+ * C7       0.1uF          CAPPTH             CAP-PTH-SMALL
+ * C8       0.1uF          CAPPTH             CAP-PTH-SMALL
+ * C9       0.1uF          CAPPTH             CAP-PTH-SMALL
+ * C10      0.1uF          CAPPTH             CAP-PTH-SMALL
+ * C11      0.1uF          CAPPTH             CAP-PTH-SMALL
+ * C12      0.1uF          CAPPTH             CAP-PTH-SMALL   
+ * D1       1N4001         DIODEPTH           DIODE-0.4          
+ * D2       Power          LED5MM             LED5MM             
+ * D3       Status         LED5MM             LED5MM              
+ * DB9      DB9            DB9                DB9                 
+ * F1       250mA PTC      PTCPTH             PTC                 
+ * JP1      SHT71          M04PTH             1X04
+ * JP2      VEG            M03SCREW           SCREWTERMINAL-3.5MM-3
+ * JP3      FLR            M03SCREW           SCREWTERMINAL-3.5MM-3
+ * JP4      PUMP           M03SCREW           SCREWTERMINAL-3.5MM-3
+ * JP5      TEMP           M03SCREW           SCREWTERMINAL-3.5MM-3
+ * JP6      SOIL           M03SCREW           SCREWTERMINAL-3.5MM-3
+ * Q1       16MHz          CRYSTALHC49US      HC49US
+ * Q2       32.768kHz      CRYSTALTC26H       TC26H
+ * R1       330            RESISTORPTH1       AXIAL-0.3          
+ * R2       10K            RESISTORPTH1       AXIAL-0.3    
+ * R3       330            RESISTORPTH1       AXIAL-0.3       
+ * R4       4.7k           RESISTORPTH1       AXIAL-0.3   
+ * R5       4.7k           RESISTORPTH1       AXIAL-0.3  
+ * R6       10k            RESISTORPTH1       AXIAL-0.3     
+ * R7       4.7k           RESISTORPTH1       AXIAL-0.3       
+ * S1                      SWITCH-SPST        SWITCH-SPST    
+ * S2       Reset          TAC_SWITCHPTH      TACTILE-PTH  
+ * U1       LM7805         V_REG_78XXSINK     TO220-IGO   
+ * U2       ATMega382      AVR-MEGA328-P      DIL28-3       
+ * U3       SP3232         SP3232PTH          DIL16      
+ * U4       DS1307         DIL8               DIL08   
+ * U5       DS18B20        TEMPERATURE-SENSOR TO-92    
+ * U6       DS18B20        TEMPERATURE-SENSOR TO-92  
