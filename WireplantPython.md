@@ -1,0 +1,28 @@
+# Introduction #
+
+The following code shows how to use Python 3.x and PySerial to extract useful data from the Wireplant unit attached to a serial port.
+
+
+# Details #
+```
+import serial
+
+wireplant = serial.Serial('COM5', 9600);
+
+while 1:       
+    wirelog = wireplant.readline();
+    wirelog = wirelog.split();
+    if wirelog[0] == b'LOG:':
+        print('Hour:   ', wirelog[1]);
+        print('Minute: ', wirelog[2]);
+        print('Second: ', wirelog[3]);
+        print('Month:  ', wirelog[4]);
+        print('Day:    ', wirelog[5]);
+        print('Year:   ', wirelog[6]);
+        print('Temp C  ', wirelog[7]);
+        print('%rH     ', wirelog[8]);
+        print('DS[0]   ', wirelog[9]);
+        print('Soil    ', wirelog[10]);
+        
+arduino.close
+```
